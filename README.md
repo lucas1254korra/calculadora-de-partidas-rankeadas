@@ -2,11 +2,11 @@
 
 <div align="center">
   
-![GitHub repo size](https://img.shields.io/github/repo-size/seu-usuario/calculadora-rankeadas?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/seu-usuario/calculadora-rankeadas?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/seu-usuario/calculadora-rankeadas?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/seu-usuario/calculadora-rankeadas?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/seu-usuario/calculadora-rankeadas?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/lucas1254korra/calculadora-rankeadas?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/lucas1254korra/calculadora-rankeadas?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/lucas1254korra/calculadora-rankeadas?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/slucas1254korra/calculadora-rankeadas?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/lucas1254korra/calculadora-rankeadas?style=for-the-badge)
 
 </div>
 
