@@ -10,7 +10,7 @@
 
 ## 📋 Sobre o Projeto
 
-Projeto desenvolvido como parte do **Desafio #2** da Formação Lógica de Programação* da [DIO](https://www.dio.me/).
+Projeto desenvolvido como parte do **Desafio #2** da *Formação Lógica de Programação* da [DIO](https://www.dio.me/).
 
 A **Calculadora de Partidas Rankeadas** é uma aplicação web interativa que calcula o saldo de vitórias de um jogador e determina seu nível de rank baseado no desempenho em partidas competitivas.
 
