@@ -1,16 +1,6 @@
 # 🎮 Calculadora de Partidas Rankeadas
 
 <div align="center">
-  
-![GitHub repo size](https://img.shields.io/github/repo-size/lucas1254korra/calculadora-rankeadas?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/lucas1254korra/calculadora-rankeadas?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/lucas1254korra/calculadora-rankeadas?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/slucas1254korra/calculadora-rankeadas?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/lucas1254korra/calculadora-rankeadas?style=for-the-badge)
-
-</div>
-
-<div align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
