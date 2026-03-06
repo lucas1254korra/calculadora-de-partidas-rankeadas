@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, rgba(155, 42, 123, 1) 0%, rgba(199, 87, 133, 1) 50%, rgba(237, 83, 186, 1) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.caixinharesultado { 
+    width: 450px;
+    min-height: 200px;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+
+h1 {
+    color: #f0f0f0;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+    text-shadow: 0 0 10px rgba(237, 83, 186, 0.5);
+}
+
+.inserir-dado {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ed53ba;
+    font-weight: 600;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #9b2a7b;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all 0.3s ease;
+}
+
+input::placeholder {
+    color: rgba(240, 240, 240, 0.5);
+}
+
+input:focus {
+    outline: none;
+    border-color: #ed53ba;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 15px rgba(237, 83, 186, 0.3);
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(155, 42, 123, 1) 0%, rgba(199, 87, 133, 1) 50%, rgba(237, 83, 186, 1) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Silkscreen", sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    margin-top: 10px;
+    box-shadow: 0 4px 15px rgba(237, 83, 186, 0.3);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(237, 83, 186, 0.5);
+    filter: brightness(1.1);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.resultado {
+    margin-top: 25px;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(155, 42, 123, 0.3) 0%, rgba(237, 83, 186, 0.3) 100%);
+    border-radius: 12px;
+    border: 2px solid #ed53ba;
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 16px;
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.personagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    min-height: 120px;
+}
+
+.personagem-gif {
+    width: 96px;
+    height: 96px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    filter: drop-shadow(0 0 15px rgba(237, 83, 186, 0.6));
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { 
+        transform: translateY(0px); 
+    }
+    50% { 
+        transform: translateY(-10px); 
+    }
+}
+
+.nivel {
+    font-size: 36px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    color: #ed53ba;
+    text-shadow: 0 0 20px rgba(237, 83, 186, 0.8);
+}
+
+.stats-info {
+    font-family: "Silkscreen", sans-serif;
+    font-size: 14px;
+    color: #c75785;
+    margin-top: 10px;
+}
+
+.saldo-destaque {
+    font-weight: 700;
+    color: #ed53ba;
+    font-size: 18px;
+}
+
+.mensagem-final {
+    margin-top: 15px;
+    padding: 15px;
+    background: rgba(237, 83, 186, 0.1);
+    border-radius: 8px;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+}

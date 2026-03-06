@@ -1,0 +1,34 @@
+<div class="caixinharesultado">
+    <h1>🎮 Calculadora de Partidas Rankeadas</h1>
+    
+    <div class="inserir-dado">
+        <label for="vitorias">⚔️ Vitórias:</label>
+        <input type="number" id="vitorias" placeholder="Ex: 95" min="0">
+    </div>
+
+    <div class="inserir-dado">
+        <label for="derrotas">💀 Derrotas:</label>
+        <input type="number" id="derrotas" placeholder="Ex: 10" min="0">
+    </div>
+
+    <button onclick="calcularRank()">Calcular Rank</button>
+
+    <div class="resultado" id="resultado">
+        <div class="personagem-container">
+            <img id="personagemGif" class="personagem-gif" src="" alt="Personagem">
+        </div>
+        
+        <div class="nivel" id="nivelResultado"></div>
+        
+        <div class="stats-info">
+            Saldo: <span class="saldo-destaque" id="saldoResultado"></span>
+        </div>
+        
+        <div class="stats-info">
+            Vitórias: <span id="vitoriasResultado"></span> | 
+            Derrotas: <span id="derrotasResultado"></span>
+        </div>
+
+        <div class="mensagem-final" id="mensagemFinal"></div>
+    </div>
+</div>
